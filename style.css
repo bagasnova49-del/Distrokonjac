@@ -1,0 +1,183 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+  background-color: #f2f7ec;
+}
+
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #065c27;
+  color: rgb(255, 255, 255);
+  padding: 10px 20px;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 15px;
+}
+
+.nav-links a {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.nav-links a:hover {
+  text-decoration: underline;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+/* Hero */
+.hero {
+  background: url('WhatsApp\ Image\ 2025-11-11\ at\ 12.48.43.jpeg') center/cover no-repeat;
+  color: rgb(241, 235, 235);
+  text-align: center;
+  padding: 120px 20px;
+}
+
+.hero-text h2 {
+  font-size: 3rem;
+  margin-bottom: 15px;
+}
+
+.hero-text p {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 12px 25px;
+  background: #065c27;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.btn:hover {
+  background: green;
+}
+
+/* About */
+.about {
+  padding: 60px 20px;
+  text-align: center;
+  background: #f0ebe5;
+}
+
+.about h2 {
+  margin-bottom: 20px;
+
+  color: #065c27;
+}
+
+.about p {
+  max-width: 600px;
+  margin: auto;
+  margin-bottom: 20px;
+}
+
+.about-img {
+  max-width: 100%;
+  border-radius: 10px;
+}
+
+/* Products */
+.products {
+  padding: 10px 20px;
+  text-align: center;
+  background: #065c27;
+}
+
+.products h2
+{
+  margin-bottom: 30px;
+  color: white;
+}
+
+.product-list {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  color: white;
+}
+
+.product-item {
+  padding: 20px;
+  border-radius: 10px;
+  width: 250px;
+  transition: transform 0.3s;
+}
+
+.product-item img {
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.product-item:hover {
+  transform: translateY(-5px);
+}
+
+/* Contact */
+.contact {
+  padding: 60px 20px;
+  text-align: center;
+  background: white;
+}
+
+.contact h2 {
+  margin-bottom: 20px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+  margin: auto;
+  gap: 15px;
+}
+
+input, textarea {
+  padding: 12px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 5rem;
+}
+
+button {
+  padding: 12px;
+  border: none;
+  border-radius: 5px;
+  background-color: #2d6a4f;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+button:hover {
+  background-color: #065c27;
+}
+
+.hero h2 {
+    color: 
+    
+}
+
+
+.bow h2{
+  color: #065c27;
+}
